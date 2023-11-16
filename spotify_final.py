@@ -25,7 +25,7 @@ import pickle
 ## Data Collection
 """
 
-data = pd.read_csv('../../Spotify_final/spotify-2023.csv', encoding='ISO-8859-1')
+data = pd.read_csv('C:/Users/manya/PycharmProjects/Spotify_final/spotify-2023.csv', encoding='ISO-8859-1')
 data.head()
 
 # Listing the columns of the Dataframe
@@ -276,6 +276,6 @@ plt.grid(True, which='both', linestyle='--', linewidth=0.5)
 plt.tight_layout()
 plt.show()
 
-pickle.dump(grid_search, open("../../Spotify_final/model.pkl", 'wb'))
+pickle.dump(grid_search, open("model.pkl", 'wb'))
 
-pickle.dump(grid_search, open("../../Spotify_final/model.sav", 'wb'))
+pickle.dump(grid_search, open("model.sav", 'wb'))
