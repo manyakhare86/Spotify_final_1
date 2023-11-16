@@ -276,6 +276,6 @@ plt.grid(True, which='both', linestyle='--', linewidth=0.5)
 plt.tight_layout()
 plt.show()
 
-pickle.dump(grid_search, open("model.pkl", 'wb'))
+pickle.dump(grid_search, open("C:/Users/manya/PycharmProjects/Spotify_final/model.pkl", 'wb'))
 
-pickle.dump(grid_search, open("model.sav", 'wb'))
+pickle.dump(grid_search, open("C:/Users/manya/PycharmProjects/Spotify_final/model.sav", 'wb'))

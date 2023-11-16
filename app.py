@@ -5,7 +5,7 @@ import pickle
 
 app = Flask(__name__)
 
-model = pickle.load(open("model.pkl", "rb"))
+model = pickle.load(open("C:/Users/manya/PycharmProjects/Spotify_final/model.pkl", "rb"))
 
 
 @app.route("/predict", methods=["POST"])
