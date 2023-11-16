@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-model = pickle.load(open("C:/Users/manya/PycharmProjects/Spotify_final/model.sav", "rb"))
+model = pickle.load(open("C:/Users/manya/PycharmProjects/Spotify_final/model.pkl", "rb"))
 
 
 def stream_pred(input_data):
